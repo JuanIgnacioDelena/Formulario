@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Heroes</title>
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="Descuentos">20% de descuentos en todos los productos</div>
+      <img src="/img/Header.png" width=100%>
+    </header>
+    
+    <div class="login"><span id="registro">Registro</span>
+      <br>
+      <br>
+      <form action="/registro" method="POST">
+        <div id="campos">
+        <label for="Nombre"></label>
+        <input type="text" id="Nombre" name="Nombre y apellido" placeholder="Nombre y apellido">
+        <br>
+        <br>
+        <input type="email" id="Correo" name="Correo" placeholder="Correo electrónico">
+        <br>
+        <br>
+        <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña">
+        <br>
+        <br>
+        <select name="país" class="input">
+        <option value="" disabled selected>País</option>
+         <option value="Argentina">Argentina</option>
+         <option value="Brasil">Brasil</option>
+         <option value="Colombia">Colombia</option></input>
+        </select> 
+    </div>
+        <br>
+        <div id="botones">
+        <span><button id="button1" type="submit" value="Entrar"><a id="resetear" href="#">Resetear</a></button></span><span><button id="button2" type="submit" value="Entrar"><a id="entrar" href="#">Registrar</a></button></span>
+        </div>
+        <br>
+        <br>
+        <a href="index.html"><span id="pregunta">¿Ya tenés una cuenta?</span><span id="registrarme"> Ingresá</span></a>
+      </form>
+  </div>
+
+    <footer>
+      Todos los derechos reservados a FRONT END 1
+    </footer>
+  </body>
+
+</html>

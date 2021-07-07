@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: roboto;       
+}
+
+body {
+    height: 100vh;
+}
+
+#Descuentos {
+    height: 38px;
+    font-family: roboto;
+    font-size: 15px;
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-weight:bold;
+}
+
+.login {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 36vw;
+    font-family: Karla;
+        
+}
+
+
+.login #login {
+    font-family: inter;
+    position: relative;
+    left: -130px;
+    font-weight:1000;
+    font-size: 40px;
+}
+
+
+input {
+    width: 360px;
+    height: 30px;
+    text-indent: 10px;
+    font-family: karla;
+    font-weight: bold;
+}
+
+.input {
+    width: 360px;
+    height: 30px;
+    text-indent: 10px;
+    font-family: karla;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1CD1B0;
+    border-style:none;
+    border-radius: 50px;
+    padding: 10px 180px 10px 180px;
+}
+
+#botones {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#button2 {
+    background-color: #1CD1B0;
+    border-style:none;
+    border-radius: 50px;
+    padding: 10px 55px 10px 55px;
+}
+
+#button1 {
+    background-color: grey;
+    border-style:none;
+    border-radius: 50px;
+    padding: 10px 55px 10px 55px;
+}
+
+#entrar {
+    font-weight: bolder;
+    color: black;
+    font-family: karla;
+}
+
+#resetear {
+    font-weight: bolder;
+    color:white;
+    font-family: karla;
+}
+
+a {
+    text-decoration: none;
+}
+
+#pregunta {
+    color: #00669F;
+    font-weight: bold;
+    font-family: karla;
+    font-size: 13px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+#registrarme {
+    color: black;
+    font-weight: bold;
+    font-family: karla;
+    font-size: 13px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+footer {
+    background-color: #00669F;
+    position: absolute;
+    bottom: 0px;
+    padding: 16px;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+
+.login #registro{
+        font-family: inter;
+        position: relative;
+        left: -105px;
+        font-weight:1000;
+        font-size: 40px;
+}
+
+
+
+
